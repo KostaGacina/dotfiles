@@ -18,7 +18,14 @@ bindsym $mod+Shift+S exec systemctl suspend
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 14
+font pango:FiraCode Nerd Font Mono 14
+# TokyoNight Storm Window Colors
+# class                 border      background  text        indicator
+client.focused          #7aa2f7     #24283b     #9ece6a     #7aa2f7
+client.focused_inactive #414868     #24283b     #c0caf5     #414868
+client.unfocused        #414868     #24283b     #bac2de     #414868
+client.urgent           #f7768e     #24283b     #c0caf5     #f7768e
+client.placeholder      #000000     #0c0c0c     #ffffff     #000000 
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
